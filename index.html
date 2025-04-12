@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jatin - Creative Journey</title>
+  <title>Jatin's Portfolio</title>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
   <style>
     * {
@@ -41,8 +41,8 @@
       margin-top: 0.5rem;
     }
 
-    .about {
-      max-width: 900px;
+    .section {
+      max-width: 1000px;
       margin: 3rem auto;
       background: #ffffffcc;
       border-radius: 15px;
@@ -51,14 +51,25 @@
       transition: transform 0.3s ease-in-out;
     }
 
-    .about:hover {
+    .section:hover {
       transform: translateY(-5px);
     }
 
-    .about p {
-      font-size: 1.15rem;
-      line-height: 1.9;
+    .section h3 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      color: #764ba2;
+    }
+
+    .section p, .section ul {
+      font-size: 1.1rem;
+      line-height: 1.8;
       color: #34495e;
+    }
+
+    .section ul {
+      list-style-type: square;
+      margin-left: 1.5rem;
     }
 
     footer {
@@ -79,22 +90,40 @@
 
 <body>
   <header>
-    <h1>Hello, I'm Jatin</h1>
-    <h2>PCM Student ✦ Design Aficionado ✦ Creative Spirit</h2>
+    <h1>Jatin's Portfolio</h1>
+    <h2>PCM Student ✦ Visual Designer ✦ Visionary in Progress</h2>
   </header>
 
-  <section class="about">
+  <section class="section">
+    <h3>About Me</h3>
     <p>
-      🌟 I'm currently living the Class 11 life — navigating through numbers, atoms, and formulas as a proud PCM student. It’s not just about textbooks though — it’s about unlocking the secrets of the universe with every equation, every reaction, every theorem. <br><br>
-
-      🎨 When I’m not immersed in the science grind, I’m bringing visuals to life — thumbnails, wallpapers, T-shirt designs — each one a canvas for my imagination. <br><br>
-
-      🚀 I believe in pushing limits, in remixing tradition with innovation. Whether it’s a pixel-perfect layout or a future-forward formula, I’m here for the challenge. This is more than a page — it’s a digital reflection of growth, grit, and good vibes.
+      🌟 I'm a curious mind navigating through the scientific wonders of Physics, Chemistry, and Mathematics in Class 11 — and loving every bit of it. <br><br>
+      🎨 Outside the classroom, I embrace my creative side — designing thumbnails, wallpapers, T-shirts, and other digital art. I believe in blending logic with artistry to tell stories that resonate visually. <br><br>
+      🚀 I’m all about evolving — learning new tools, exploring fresh perspectives, and building a portfolio that reflects my growth and individuality.
     </p>
   </section>
 
+  <section class="section">
+    <h3>Skills</h3>
+    <ul>
+      <li>Graphic Design & Digital Illustration</li>
+      <li>Creative Concept Development</li>
+      <li>Basic HTML & CSS for Web Design</li>
+      <li>Science Problem-Solving & Analytical Thinking</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h3>Projects</h3>
+    <ul>
+      <li>Thumbnail designs for vlogs, streams, and social media campaigns</li>
+      <li>T-shirt graphics and trendy illustrations</li>
+      <li>Minimal wallpapers inspired by geometry and motion</li>
+    </ul>
+  </section>
+
   <footer>
-    <p>Crafted with <span class="sparkle">✨</span> by Jatin | &copy; 2025 All rights reserved.</p>
+    <p>Made with passion & vision ✨ by Jatin | &copy; 2025 All rights reserved.</p>
   </footer>
 </body>
 
