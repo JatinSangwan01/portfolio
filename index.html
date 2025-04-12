@@ -4,76 +4,97 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jatin - Personal Webpage</title>
+  <title>Jatin - Creative Journey</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
   <style>
-    body {
+    * {
+      box-sizing: border-box;
       margin: 0;
+      padding: 0;
+    }
+
+    body {
       font-family: 'Poppins', sans-serif;
-      background: linear-gradient(to right, #e0eafc, #cfdef3);
-      color: #222;
+      background: linear-gradient(to right, #fdfcfb, #e2d1c3);
+      color: #2c3e50;
+      overflow-x: hidden;
     }
 
     header {
-      background: #1e3c72;
-      background: linear-gradient(to right, #2a5298, #1e3c72);
+      background: linear-gradient(135deg, #667eea, #764ba2);
       color: #fff;
-      padding: 3rem 1rem;
+      padding: 4rem 2rem;
       text-align: center;
+      clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
     }
 
     header h1 {
-      margin: 0;
+      font-family: 'Orbitron', sans-serif;
       font-size: 3rem;
-      letter-spacing: 1px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
     }
 
     header h2 {
-      margin: 0.5rem 0 0;
       font-weight: 300;
       font-size: 1.3rem;
+      margin-top: 0.5rem;
     }
 
     .about {
-      background: #fff;
-      margin: 2rem auto;
-      padding: 2rem;
       max-width: 900px;
-      border-radius: 10px;
-      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      margin: 3rem auto;
+      background: #ffffffcc;
+      border-radius: 15px;
+      padding: 2.5rem;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .about:hover {
+      transform: translateY(-5px);
     }
 
     .about p {
-      font-size: 1.1rem;
-      line-height: 1.8;
+      font-size: 1.15rem;
+      line-height: 1.9;
+      color: #34495e;
     }
 
     footer {
+      background-color: #764ba2;
+      color: #fff;
       text-align: center;
       padding: 1.5rem;
-      background-color: #1e3c72;
-      color: white;
-      margin-top: 2rem;
+      font-weight: 300;
+      letter-spacing: 1px;
+    }
+
+    .sparkle {
+      color: #f39c12;
+      font-size: 1.2rem;
     }
   </style>
 </head>
 
 <body>
   <header>
-    <h1>Hey, I'm Jatin</h1>
-    <h2>PCM Student | Creative Explorer | Future Visionary</h2>
+    <h1>Hello, I'm Jatin</h1>
+    <h2>PCM Student ✦ Design Aficionado ✦ Creative Spirit</h2>
   </header>
 
   <section class="about">
     <p>
-      Hey, I’m Jatin — a creator, a student, and a dreamer fueled by ambition and aesthetic. <br><br>
-      I'm currently exploring the world of science as a PCM student in Class 11 — and honestly, I'm loving the journey so far. Physics, Chemistry, and Math challenge me, but they also shape how I think, observe, and solve. <br><br>
-      Outside the classroom, I dive into design — crafting thumbnails, T-shirt art, wallpapers, and visuals that tell a story without saying a word. <br><br>
-      Whether it’s a brushstroke in digital art or a strategy for brand growth, I bring passion, consistency, and a hunger to evolve. This isn’t just a profile — it’s the beginning of a legacy in motion.
+      🌟 I'm currently living the Class 11 life — navigating through numbers, atoms, and formulas as a proud PCM student. It’s not just about textbooks though — it’s about unlocking the secrets of the universe with every equation, every reaction, every theorem. <br><br>
+
+      🎨 When I’m not immersed in the science grind, I’m bringing visuals to life — thumbnails, wallpapers, T-shirt designs — each one a canvas for my imagination. <br><br>
+
+      🚀 I believe in pushing limits, in remixing tradition with innovation. Whether it’s a pixel-perfect layout or a future-forward formula, I’m here for the challenge. This is more than a page — it’s a digital reflection of growth, grit, and good vibes.
     </p>
   </section>
 
   <footer>
-    <p>&copy; 2025 Jatin. All rights reserved.</p>
+    <p>Crafted with <span class="sparkle">✨</span> by Jatin | &copy; 2025 All rights reserved.</p>
   </footer>
 </body>
 
