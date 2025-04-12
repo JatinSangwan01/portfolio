@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jatin | Creative Soul on a Mission</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+    }
+    header {
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #c0c0c0;
+    }
+    .about {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background-color: rgba(255, 255, 255, 0.05);
+      border-radius: 1rem;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    }
+    .about h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #00ffff;
+      display: inline-block;
+      padding-bottom: 0.5rem;
+    }
+    .about p {
+      line-height: 1.7;
+      font-size: 1.1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Jatin</h1>
+    <p>Student | Creator | Dreamer with a Vision</p>
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>
+      Yo, I’m Jatin — a Gen Z powerhouse blending art with ambition. 🎨💡 <br>
+      By day, I’m a high school student grinding through Accountancy and Economics; <br>
+      by night, I’m designing killer thumbnails, slick T-shirt graphics, and luxury aesthetics that breathe personality into pixels.<br><br>
+      Currently vibing with my creative side as a freelance designer, crafting visuals for vlogs, wearables, and wild ideas that come to life.<br><br>
+      Co-creating “Vibes with Sibs” with my sister Sneha, and working on horror storytelling like “The Forgotten Hospital” — I’m all about bold moves and big dreams.<br><br>
+      This isn’t just a phase. It’s a brand in the making. Let’s build something unforgettable.
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 Jatin | All rights reserved.
+  </footer>
+
+</body>
+</html>
