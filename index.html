@@ -1,134 +1,176 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jatin Sangwan's Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Master the stock market with StockMaster Coaching – offline trading courses by experts.">
+  <title>StockMaster Coaching</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <style>
     * {
-      box-sizing: border-box;
       margin: 0;
       padding: 0;
-    }
-
-    body {
+      box-sizing: border-box;
       font-family: 'Poppins', sans-serif;
-      background: linear-gradient(135deg, #e0c3fc, #8ec5fc);
-      color: #2c3e50;
-      overflow-x: hidden;
-      scroll-behavior: smooth;
-    }
+    }body {
+  background-color: #ffffff;
+  color: #333;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
 
-    header {
-      background: linear-gradient(135deg, #667eea, #764ba2);
-      color: #fff;
-      padding: 4rem 2rem;
-      text-align: center;
-      clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-    }
+header {
+  padding: 1.5rem;
+  text-align: center;
+  background: #ffffff;
+  border-bottom: 2px solid #ddd;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
 
-    header h1 {
-      font-family: 'Orbitron', sans-serif;
-      font-size: 3.5rem;
-      letter-spacing: 2.5px;
-      text-transform: uppercase;
-    }
+.logo {
+  max-width: 70px;
+  height: auto;
+  display: block;
+  margin: 0 auto 0.5rem;
+}
 
-    header h2 {
-      font-weight: 300;
-      font-size: 1.5rem;
-      margin-top: 0.5rem;
-      font-style: italic;
-    }
+h1 {
+  font-size: 1.8rem;
+  color: #007bff;
+}
 
-    .section {
-      max-width: 1000px;
-      margin: 3rem auto;
-      background: #ffffffdd;
-      border-radius: 20px;
-      padding: 3rem;
-      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
-      transition: transform 0.3s ease-in-out;
-    }
+section {
+  padding: 2rem 1rem;
+  max-width: 1200px;
+  margin: auto;
+  background-color: #ffffff;
+}
 
-    .section:hover {
-      transform: translateY(-8px);
-    }
+.section-title {
+  font-size: 1.5rem;
+  color: #007bff;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #007bff33;
+  padding-bottom: 0.5rem;
+}
 
-    .section h3 {
-      font-size: 2rem;
-      margin-bottom: 1.2rem;
-      color: #764ba2;
-    }
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
 
-    .section p, .section ul {
-      font-size: 1.2rem;
-      line-height: 1.9;
-      color: #34495e;
-    }
+.course {
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: 0.3s ease;
+}
 
-    .section ul {
-      list-style-type: square;
-      margin-left: 1.5rem;
-    }
+.course:hover {
+  box-shadow: 0 8px 20px rgba(0, 123, 255, 0.2);
+}
 
-    footer {
-      background-color: #764ba2;
-      color: #fff;
-      text-align: center;
-      padding: 2rem;
-      font-weight: 300;
-      font-size: 1rem;
-      letter-spacing: 1px;
-    }
+.course h3 {
+  margin-bottom: 0.5rem;
+  color: #007bff;
+  font-size: 1.2rem;
+}
 
-    footer p span {
-      color: #fdd835;
-      font-weight: bold;
-    }
+.course ul {
+  padding-left: 1rem;
+}
+
+p, li {
+  font-size: 1rem;
+  color: #555;
+}
+
+footer {
+  background: #ffffff;
+  color: #555;
+  padding: 2rem 1rem;
+  text-align: center;
+  font-size: 0.85rem;
+  border-top: 1px solid #ddd;
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  .section-title {
+    font-size: 1.2rem;
+  }
+
+  .course h3 {
+    font-size: 1.1rem;
+  }
+
+  p, li {
+    font-size: 0.95rem;
+  }
+}
+
   </style>
-</head>
-
-<body>
+</head><body>
   <header>
-    <h1>Jatin Sangwan's Portfolio</h1>
-    <h2>PCM Student ✦ Visual Storyteller ✦ Bold Dreamer</h2>
-  </header>
-
-  <section class="section">
-    <h3>About Me</h3>
-    <p>
-      🌟 I'm Jatin Sangwan — a curious explorer of the universe through Physics, Chemistry, and Mathematics. As a Class 11 PCM student, I’m diving deep into the logic of the cosmos — and vibing with it fully. <br><br>
-      🎨 My creative spark fuels my passion for digital design — from crafting vibrant thumbnails to dynamic T-shirts and visual masterpieces that speak without words. <br><br>
-      🚀 Forever evolving, I merge the analytical with the artistic — bringing ideas to life and crafting a legacy pixel by pixel.
-    </p>
-  </section>
-
-  <section class="section">
-    <h3>Skills</h3>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Stock_exchange_logo_template.svg/1200px-Stock_exchange_logo_template.svg.png" alt="StockMaster Coaching Logo" class="logo">
+    <h1>StockMaster Coaching</h1>
+  </header>  <section>
+    <h2 class="section-title">About Us</h2>
+    <p>At StockMaster Coaching, we bring real-world expertise to offline trading education. Our programs empower you to become a confident and strategic trader in the dynamic stock market.</p>
+  </section>  <section>
+    <h2 class="section-title">Offline Courses</h2>
+    <div class="courses-grid">
+      <div class="course">
+        <h3>Beginner Stock Trading</h3>
+        <ul>
+          <li>Foundations of equity, indices, and trading types</li>
+          <li>Basics of trading platforms and account setup</li>
+          <li>Simple technical indicators and how to use them</li>
+        </ul>
+      </div><div class="course">
+    <h3>Technical Analysis</h3>
     <ul>
-      <li>Graphic Design & Visual Storytelling</li>
-      <li>Creative Concept Development</li>
-      <li>HTML & CSS Fundamentals</li>
-      <li>Analytical Thinking through PCM Subjects</li>
+      <li>Chart patterns, price action and signals</li>
+      <li>Understanding moving averages and RSI</li>
+      <li>Drawing trendlines and identifying breakouts</li>
     </ul>
-  </section>
+  </div>
 
-  <section class="section">
-    <h3>Projects</h3>
+  <div class="course">
+    <h3>Options & Derivatives</h3>
     <ul>
-      <li>Thumbnails for digital content and stream events</li>
-      <li>Custom T-shirt designs with bold Gen Z energy</li>
-      <li>Minimalist wallpapers with geometry and motion</li>
+      <li>Concepts of Calls, Puts, and Premiums</li>
+      <li>Risk/reward calculation and Option Greeks</li>
+      <li>Strategies like Straddles, Spreads, and Hedging</li>
     </ul>
-  </section>
+  </div>
 
-  <footer>
-    <p>Built with 💡 and heart by <span>Jatin Sangwan</span> | &copy; 2025 All rights reserved.</p>
+  <div class="course">
+    <h3>Live Trading Sessions</h3>
+    <ul>
+      <li>Observe and participate in real market conditions</li>
+      <li>Learn trade setups and risk mitigation in action</li>
+      <li>Build and manage a practical portfolio</li>
+    </ul>
+  </div>
+</div>
+
+  </section>  <section>
+    <h2 class="section-title">Demo Classes & Fees</h2>
+    <p>Join our weekend demo classes free of cost! Course fees begin at ₹4,999 with various package options and EMI availability.</p>
+  </section>  <section>
+    <h2 class="section-title">Contact & Address</h2>
+    <p><strong>Phone:</strong> +91-9876543210<br>
+       <strong>Email:</strong> contact@stockmastercoaching.in<br>
+       <strong>Address:</strong> 1st Floor, Trade Plaza, Connaught Place, New Delhi, India</p>
+  </section>  <footer>
+    &copy; 2025 StockMaster Coaching | Empowering India’s Future Traders.
   </footer>
-</body>
-
-</html>
+</body></html>
